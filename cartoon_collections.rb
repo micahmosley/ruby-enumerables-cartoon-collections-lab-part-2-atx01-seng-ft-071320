@@ -27,5 +27,6 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |i|
     if i==valid_calls.any?
       return i 
+    end 
   end 
 end
